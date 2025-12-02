@@ -1,6 +1,6 @@
 {
     "name": "@stz184/backblaze-b2",
-    "version": "2.0.2",
+    "version": "2.0.3",
     "description": "Node.js Library for the Backblaze B2 Storage Service",
     "main": "index.js",
     "types": "types/index.d.ts",
@@ -9,7 +9,7 @@
         "cover": "istanbul cover mocha -- -R spec \"test/**/*Test.js\"",
         "lint-lib": "eslint \"lib/**/*.js\" ",
         "lint-test": "eslint \"test/**/*.js\"",
-        "lint-all" : "eslint \"lib/**/*.js\" && eslint \"test/**/*.js\"",
+        "lint-all": "eslint \"lib/**/*.js\" && eslint \"test/**/*.js\"",
         "lint-fix": "eslint \"lib/**/*.js\" --fix && eslint \"test/**/*.js\" --fix",
         "generate-types": "tsc -p tsconfig.json --declaration --allowJs --emitDeclarationOnly --outDir types --skipLibCheck"
     },

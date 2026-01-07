@@ -13,11 +13,11 @@ declare class B2 {
         ALL_PRIVATE: string;
     };
     authorize(args: any): any;
-    createBucket(argsOrBucketName: any, undefOrBucketType: any): any;
+    createBucket(argsOrBucketName: any, undefOrBucketType: any, bucketInfo: any): any;
     deleteBucket(argsOrBucketId: any): any;
     listBuckets(args: any): any;
     getBucket(args: any): any;
-    updateBucket(bucketId: any, bucketType: any, bucketInfo: any): any;
+    updateBucket(argsOrBucketId: any, undefOrBucketType: any, bucketInfo: any): any;
     getUploadUrl(argsOrBucketId: any): any;
     uploadFile(args: any): any;
     listFileNames(args: any): any;

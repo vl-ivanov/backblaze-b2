@@ -1,6 +1,6 @@
 {
     "name": "@stz184/backblaze-b2",
-    "version": "2.0.5",
+    "version": "2.0.6",
     "description": "Node.js Library for the Backblaze B2 Storage Service",
     "main": "index.js",
     "types": "types/index.d.ts",
@@ -18,17 +18,17 @@
         "b2",
         "storage"
     ],
-    "homepage": "https://github.com/stz184/backblaze-b2",
+    "homepage": "https://github.com/vl-ivanov/backblaze-b2",
     "author": {
         "name": "Vladimir Ivanov",
         "email": "info@Vladimir-ivanov.net"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/stz184/backblaze-b2.git"
+        "url": "https://github.com/vl-ivanov/backblaze-b2.git"
     },
     "bugs": {
-        "url": "https://github.com/stz184/backblaze-b2/issues"
+        "url": "https://github.com/vl-ivanov/backblaze-b2/issues"
     },
     "license": "MIT",
     "devDependencies": {
